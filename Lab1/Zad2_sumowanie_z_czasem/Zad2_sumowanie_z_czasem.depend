@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1698681817 source:c:\projects\c_cpp_als_2023-24z\lab1\zad2_sumowanie_z_czasem\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

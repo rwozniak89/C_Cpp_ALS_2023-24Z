@@ -1,25 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-void sumValues(int n){
-    int sum = 0;
-    //int n = 10;
-    int counter=2;
-
-    counter+=1;
-    for(int i=1; i <= n; i++)
-    {
-        sum += i;
-        counter+=2;
-    }
-
-    printf("n: %i\n", n);
-    printf("result: %i\n", sum);
-    printf("counter: %i\n\n", counter);
-}
-
 //przyklaad z pust¹ petl¹ dla pokazania zlozonosci, ale to nie jest prawidlowe rozwi¹zanie!
-void sumValues2(int n){
+void sumValuesC(int n){
     int sum = 0;
     //int n = 10;
     int counter=2;
@@ -34,26 +16,44 @@ void sumValues2(int n){
         sum += i;
         counter+=2;
     }
-
-    printf("n: %i\n", n);
-    printf("result: %i\n", sum);
-    printf("counter: %i\n\n", counter);
+    printf("n: %i, result: %i, counter: %i\n", n, sum, counter);
 }
 
-void sumValues2v2(int n);
+void sumValuesB(int n){
+    int sum = 0;
+    int counter=2;
+    for(int i=1; i <= n; i++)
+    {
+        sum += i;
+        counter+=2;
+    }
+    printf("n: %i, result: %i, counter: %i\n", n, sum, counter);
+}
+
+void sumValuesA(int n){
+    int counter=1;
+    int sum = (n*(n+1)/2);
+    printf("n: %i, result: %i, counter: %i\n", n, sum, counter);
+}
+
+
 
 
 int main()
 {
     printf("Zad1_sumowanie\n");
 
-    sumValues(10);
-    sumValues(100);
-    sumValues(1000);
+    sumValuesA(10);
+    sumValuesA(100);
+    sumValuesA(1000);
 
-    sumValues2(10);
-    sumValues2(100);
-    sumValues2(1000);
+    sumValuesB(10);
+    sumValuesB(100);
+    sumValuesB(1000);
+
+    sumValuesC(10);
+    sumValuesC(100);
+    sumValuesC(1000);
 
     return 0;
 }

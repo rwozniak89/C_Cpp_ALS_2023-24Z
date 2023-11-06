@@ -38,7 +38,10 @@ int main()
 {
     printf("Zad2 sumowanie z pomiarem czasu!\n");
 
-
+    sumValuesU(1000);
+    sumValuesU(10000);
+    sumValuesU(100000);
+    sumValuesU(150000);
     sumValuesU(100000);
     sumValuesU(1000000);
     sumValuesU(10000000);
@@ -48,7 +51,7 @@ int main()
     sumValuesU2(10000);
     sumValuesU2(100000);
     sumValuesU2(150000);
-    //sumValuesU2(200000);
+    sumValuesU2(200000);
     //sumValuesU2(250000);
     //sumValuesU2(1000000);
     //sumValuesU2(10000000);

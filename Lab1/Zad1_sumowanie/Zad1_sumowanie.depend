@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1698680751 source:c:\projects\c_cpp_als_2023-24z\lab1\zad1_sumowanie\main.c
+	<stdio.h>
+	<stdlib.h>
+

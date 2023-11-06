@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1699285281 source:c:\projects\c_cpp_als_2023-24z\lab2\zad1_lista\main.c
+	<stdio.h>
+	<stdlib.h>
+
